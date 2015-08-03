@@ -22,9 +22,10 @@ sub _build_statsd_path {
     my ($self) = @_;
     my $path = $self->short_store_class_name();
 
-    # Path sanitization stollen from the statsd source.
+    # Path sanitization stolen, and slightly modified, from the statsd source.
     $path =~ s{\s+}{_}g;
     $path =~ s{/}{-}g;
+    $path =~ s{::}{-}g;
     $path =~ s{[^a-zA-Z_\-0-9\.]}{}g;
 
     return $path;

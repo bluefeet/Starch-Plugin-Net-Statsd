@@ -18,13 +18,13 @@ using L<Net::Statsd>.
 By default, for example, if you are using L<Starch::Store::Memory>, stats
 like this will be recorded:
 
-    starch.memory.set
-    starch.memory.get-hit
-    starch.memory.get-miss
-    starch.memory.remove
-    starch.memory.set-error
-    starch.memory.get-error
-    starch.memory.remove-error
+    starch.Memory.set
+    starch.Memory.get-hit
+    starch.Memory.get-miss
+    starch.Memory.remove
+    starch.Memory.set-error
+    starch.Memory.get-error
+    starch.Memory.remove-error
 
 Note that stats will not be collected for L<Starch::Store::Layered>, as
 data about it isn't really useful as its just a proxy store.
