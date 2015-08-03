@@ -2,5 +2,7 @@ Revision history for Perl extension Starch::Plugin::Net::Statsd.
 
 {{$NEXT}}
 
+0.01 2015-08-03
+
  - First version.
 
