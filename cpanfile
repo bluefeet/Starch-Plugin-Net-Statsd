@@ -8,5 +8,5 @@ requires 'Type::Tiny'       => 1.000005;
 on test => sub {
    requires 'Test::Simple'   => 0.96;
    requires 'Test::Fatal'    => 0;
-   required 'Package::Stash' => 0.37;
+   requires 'Package::Stash' => 0.37;
 };

@@ -29,6 +29,11 @@ like this will be recorded:
 Note that stats will not be collected for L<Starch::Store::Layered>, as
 data about it isn't really useful as its just a proxy store.
 
+Since this plugin detects exceptions and records the C<*-error> stats for
+them you should, if you are using it, put the L<Starch::Plugin::LogStoreExceptions>
+plugin after this plugin in the plugins list.  If you don't then exceptions
+will be turned into log messages before this store gets to see them.
+
 =cut
 
 use Moo;
