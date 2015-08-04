@@ -44,6 +44,8 @@ foreach my $method (qw( set get remove )) {
     around $method => sub{
         my ($orig, $self, @args) = @_;
 
+        local $Carp::Internal{ (__PACKAGE__) } = 1;
+
         return $self->$orig( @args ) if $self->isa('Starch::Store::Layered');
 
         my $path = $self->statsd_full_path() . '.' . $method;
