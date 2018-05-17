@@ -2,6 +2,7 @@ Revision history for Perl extension Starch::Plugin::Net::Statsd.
 
 {{$NEXT}}
 
+ - Stop hiding packages from indexing.
  - Make sure we set Carp::Internal during set/get/remove.
 
 0.01 2015-08-03

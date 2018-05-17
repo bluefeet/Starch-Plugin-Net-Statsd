@@ -1,5 +1,4 @@
-package # hide from PAUSE
-    Starch::Plugin::Net::Statsd::Store;
+package Starch::Plugin::Net::Statsd::Store;
 
 use Net::Statsd;
 use Types::Common::String -types;
