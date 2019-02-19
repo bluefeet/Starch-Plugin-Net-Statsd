@@ -2,6 +2,8 @@ Revision history for Perl extension Starch-Plugin-Net-Statsd.
 
 {{$NEXT}}
 
+0.04 2019-02-19T14:17:32Z
+
  - Fix tests under FreeBSD and Windows.
  - Require perl 5.8 per Minilla.
  - Simplify VERSION declarations.
