@@ -1,5 +1,6 @@
 package Starch::Plugin::Net::Statsd;
-
+use 5.008001;
+use strictures 2;
 our $VERSION = '0.04';
 
 =head1 NAME
@@ -39,7 +40,6 @@ will be turned into log messages before this store gets to see them.
 =cut
 
 use Moo;
-use strictures 2;
 use namespace::clean;
 
 with qw(

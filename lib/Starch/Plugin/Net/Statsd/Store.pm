@@ -1,5 +1,6 @@
 package Starch::Plugin::Net::Statsd::Store;
-
+use 5.008001;
+use strictures 2;
 our $VERSION = '0.04';
 
 use Net::Statsd;
@@ -8,7 +9,6 @@ use Time::HiRes qw( gettimeofday tv_interval );
 use Try::Tiny;
 
 use Moo::Role;
-use strictures 2;
 use namespace::clean;
 
 with qw(

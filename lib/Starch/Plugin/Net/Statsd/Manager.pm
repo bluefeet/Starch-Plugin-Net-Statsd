@@ -1,12 +1,12 @@
 package Starch::Plugin::Net::Statsd::Manager;
-
+use 5.008001;
+use strictures 2;
 our $VERSION = '0.04';
 
 use Types::Common::String -types;
 use Types::Common::Numeric -types;
 
 use Moo::Role;
-use strictures 2;
 use namespace::clean;
 
 with qw(
