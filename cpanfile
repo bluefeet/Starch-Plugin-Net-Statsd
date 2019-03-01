@@ -1,5 +1,5 @@
 requires 'perl' => '5.008001';
-requires 'Starch' => '0.10';
+requires 'Starch' => '0.11';
 requires 'Net::Statsd' => '0.11';
 requires 'strictures' => '2.000000';
 requires 'namespace::clean' => '0.24';
