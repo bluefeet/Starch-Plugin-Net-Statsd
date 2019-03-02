@@ -1,7 +1,7 @@
 package Starch::Plugin::Net::Statsd::Store;
 use 5.008001;
 use strictures 2;
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 use Net::Statsd;
 use Types::Common::String -types;
