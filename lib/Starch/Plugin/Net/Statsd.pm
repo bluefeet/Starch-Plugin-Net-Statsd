@@ -42,9 +42,7 @@ will be turned into log messages before this store gets to see them.
 use Moo;
 use namespace::clean;
 
-with qw(
-    Starch::Plugin::Bundle
-);
+with 'Starch::Plugin::Bundle';
 
 sub bundled_plugins {
     return [qw(

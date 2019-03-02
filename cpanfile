@@ -18,4 +18,5 @@ on test => sub {
     requires 'Test2::V0' => '0.000094';
     requires 'Test::Starch' => '0.11';
     requires 'Starch' => '0.11';
+    requires 'Starch::Store' => '0.11';
 };

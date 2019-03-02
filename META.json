@@ -60,6 +60,7 @@
       "test" : {
          "requires" : {
             "Starch" : "0.11",
+            "Starch::Store" : "0.11",
             "Test2::V0" : "0.000094",
             "Test::Starch" : "0.11"
          }

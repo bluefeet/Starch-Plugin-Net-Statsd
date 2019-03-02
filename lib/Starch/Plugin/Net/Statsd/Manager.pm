@@ -9,9 +9,7 @@ use Types::Common::Numeric -types;
 use Moo::Role;
 use namespace::clean;
 
-with qw(
-    Starch::Plugin::ForManager
-);
+with 'Starch::Plugin::ForManager';
 
 has statsd_host => (
     is  => 'ro',

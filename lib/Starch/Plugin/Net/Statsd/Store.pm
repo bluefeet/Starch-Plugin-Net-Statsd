@@ -11,9 +11,7 @@ use Try::Tiny;
 use Moo::Role;
 use namespace::clean;
 
-with qw(
-    Starch::Plugin::ForStore
-);
+with 'Starch::Plugin::ForStore';
 
 has statsd_path => (
     is  => 'lazy',
